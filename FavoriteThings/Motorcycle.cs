@@ -10,9 +10,10 @@ namespace FavoriteThings
         public BikeType BikeType { get; set; }
         public int TopSpeed { get; set; }
 
-        public Motorcycle(string name, BikeType BikeType)
+        public Motorcycle(string name, BikeType bikeType)
         { 
             Name = name;
+            BikeType = bikeType;
             Initializer();
         }
         public void Initializer()
