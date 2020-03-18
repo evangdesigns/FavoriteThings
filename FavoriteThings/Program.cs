@@ -13,6 +13,12 @@ namespace FavoriteThings
 
             moto1.Accelerate(110);
             moto2.Accelerate(250);
+
+            var car1 = new Cars("Deloris", CarType.sports);
+            var car2 = new Cars("Samantha", CarType.SUV);
+
+            car1.Accelerate(230);
+            car2.Accelerate(50);
         }
 
 
